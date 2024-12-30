@@ -28,7 +28,12 @@ class TelegramConfig:
     
 
 class MongoDBConfig:
-    CONNECTION_STRING = "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
+CONNECTION_STRING = "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
+
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/GDNBHARATH448/Jio-saavn")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+GIT_TOKEN = getenv("GIT_TOKEN", None)  # Fill this variable if your upstream repository is private
+
 
 # Example of initializing a logger
 import logging
