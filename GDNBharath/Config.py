@@ -22,13 +22,13 @@ class TelegramConfig:
     API_ID = "28362850")
     API_HASH = "34f9cb93364db16fc45d003e4c81d97a")
     BOT_TOKEN = "8090896989:AAE7bk39swdkDdQYFfPJQYCP7KU3AFSKYfY")
-    SESSION_STRING = 'YOUR_SESSION_STRING'
-    OWNER_ID = "7635867946"
+    SESSION_STRING = "")
+    OWNER_ID = "7635867946")
     LOGGER_GROUP = "-1002141779241")
     
 
 class MongoDBConfig:
-    CONNECTION_STRING = 'YOUR_MONGODB_CONNECTION_STRING'
+    CONNECTION_STRING = "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
 
 # Example of initializing a logger
 import logging
