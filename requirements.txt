@@ -21,6 +21,6 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-jiosaavn-dlp
+jiosaavn
 jiosaavn-search
 jiosaavn-search-python
